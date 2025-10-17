@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ticker,name,market,locale,primary_exchange,type,active,currency_name,cik,composite_figi,share_class_figi,last_updated_utc,ds
 A,Agilent Technologies Inc.,stocks,us,XNYS,CS,True,usd,0001090872,BBG000C2V3D6,BBG001SCTQY4,2025-10-17T06:05:56.198983986Z,2025-10-17
 AA,Alcoa Corporation,stocks,us,XNYS,CS,True,usd,0001675149,BBG00B3T3HD3,BBG00B3T3HF1,2025-10-17T06:05:56.198984847Z,2025-10-17
@@ -99,3 +100,36 @@ ACHR,Archer Aviation Inc.,stocks,us,XNYS,CS,True,usd,0001824502,BBG00XRTC910,BBG
 ACHR.WS,"Archer Aviation Inc. Redeemable Warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50",stocks,us,XNYS,WARRANT,True,usd,0001824502,BBG00YGCV1N9,,2025-10-17T06:05:56.198998082Z,2025-10-17
 ACHV,"Achieve Life Sciences, Inc.",stocks,us,XNAS,CS,True,usd,0000949858,BBG000FB8S62,BBG001S8JF14,2025-10-17T06:05:56.198998293Z,2025-10-17
 ACI,"Albertsons Companies, Inc.",stocks,us,XNYS,CS,True,usd,0001646972,BBG009KG1750,BBG009KG1741,2025-10-17T06:05:56.198998814Z,2025-10-17
+=======
+ticker,name,market,locale,primary_exchange,type,active,currency_name,cik,composite_figi,share_class_figi,last_updated_utc
+A,Agilent Technologies Inc.,stocks,us,XNYS,CS,True,usd,0001090872,BBG000C2V3D6,BBG001SCTQY4,2025-10-07T06:05:53.246040364Z
+AA,Alcoa Corporation,stocks,us,XNYS,CS,True,usd,0001675149,BBG00B3T3HD3,BBG00B3T3HF1,2025-10-07T06:05:53.246041486Z
+AAA,Alternative Access First Priority CLO Bond ETF,stocks,us,ARCX,ETF,True,usd,0001776878,BBG01B0JRCS6,BBG01B0JRCT5,2025-10-07T06:05:53.246041777Z
+AAAA,Amplius Aggressive Asset Allocation ETF,stocks,us,BATS,ETF,True,usd,,BBG01W275XX6,BBG01W275ZB5,2025-10-07T06:05:53.246042057Z
+AAAU,Goldman Sachs Physical Gold ETF Shares,stocks,us,BATS,ETF,True,usd,0001708646,BBG00LPXX872,BBG00LPXX8Z1,2025-10-07T06:05:53.246042127Z
+AACB,Artius II Acquisition Inc. Class A Ordinary Shares,stocks,us,XNAS,CS,True,usd,0002034334,,,2025-10-07T06:05:53.246042218Z
+AACBR,Artius II Acquisition Inc. Rights,stocks,us,XNAS,RIGHT,True,usd,0002034334,,,2025-10-07T06:05:53.246042298Z
+AACBU,Artius II Acquisition Inc. Units,stocks,us,XNAS,UNIT,True,usd,0002034334,,,2025-10-07T06:05:53.246042368Z
+AACG,ATA Creativity Global American Depositary Shares,stocks,us,XNAS,ADRC,True,usd,0001420529,BBG000V2S3P6,BBG001T125S9,2025-10-07T06:05:53.246042719Z
+AACI,Armada Acquisition Corp. II Class A Ordinary Shares,stocks,us,XNAS,CS,True,usd,0002044009,,,2025-10-07T06:05:53.246042809Z
+AACIU,Armada Acquisition Corp. II Units,stocks,us,XNAS,UNIT,True,usd,0002044009,,,2025-10-07T06:05:53.246042909Z
+AACIW,Armada Acquisition Corp. II Warrant,stocks,us,XNAS,WARRANT,True,usd,0002044009,,,2025-10-07T06:05:53.246042989Z
+AADR,AdvisorShares Dorsey Wright ADR ETF,stocks,us,XNAS,ETF,True,usd,0001408970,BBG000BDYRW6,BBG001T9B1Y4,2025-10-07T06:05:53.246043069Z
+AAL,American Airlines Group Inc.,stocks,us,XNAS,CS,True,usd,0000006201,BBG005P7Q881,BBG005P7Q907,2025-10-07T06:05:53.246043149Z
+AALG,Leverage Shares 2X Long AAL Daily ETF,stocks,us,XNAS,ETF,True,usd,0001976322,BBG01VH49P35,BBG01VH49Q06,2025-10-07T06:05:53.24604323Z
+AAM,AA Mission Acquisition Corp.,stocks,us,XNYS,CS,True,usd,0002012964,,,2025-10-07T06:05:53.24604331Z
+AAM.U,"AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one-half of one redeemable warrant",stocks,us,XNYS,UNIT,True,usd,0002012964,,,2025-10-07T06:05:53.24604338Z
+AAM.WS,"AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share",stocks,us,XNYS,WARRANT,True,usd,0002012964,,,2025-10-07T06:05:53.24604346Z
+AAME,Atlantic American Corp,stocks,us,XNAS,CS,True,usd,0000008177,BBG000B9XB24,BBG001S5N8T1,2025-10-07T06:05:53.24604369Z
+AAMI,Acadian Asset Management Inc.,stocks,us,XNYS,CS,True,usd,0001748824,BBG00P2HLNY3,BBG00P2HLNZ2,2025-10-07T06:05:53.246043771Z
+AAOI,"Applied Optoelectronics, Inc.",stocks,us,XNAS,CS,True,usd,0001158114,BBG000D6VW15,BBG001SG47G4,2025-10-07T06:05:53.246043841Z
+AAON,Aaon Inc,stocks,us,XNAS,CS,True,usd,0000824142,BBG000C2LZP3,BBG001S6CZK0,2025-10-07T06:05:53.246043921Z
+AAP,ADVANCE AUTO PARTS INC,stocks,us,XNYS,CS,True,usd,0001158449,BBG000F7RCJ1,BBG001SD2SB2,2025-10-07T06:05:53.246044001Z
+AAPB,GraniteShares ETF Trust GraniteShares 2x Long AAPL Daily ETF,stocks,us,XNAS,ETF,True,usd,0001689873,BBG0193F21N2,BBG0193F22H7,2025-10-07T06:05:53.246044081Z
+AAPD,Direxion Daily AAPL Bear 1X Shares,stocks,us,XNAS,ETF,True,usd,,BBG0193YGJ57,BBG0193YGK09,2025-10-07T06:05:53.246044402Z
+AAPG,Ascentage Pharma Group International American Depository Shares,stocks,us,XNAS,ADRC,True,usd,0002023311,BBG01RJXM9C9,BBG01RJXMB89,2025-10-07T06:05:53.246044482Z
+AAPL,Apple Inc.,stocks,us,XNAS,CS,True,usd,0000320193,BBG000B9XRY4,BBG001S5N8V8,2025-10-07T06:05:53.246044612Z
+AAPR,Innovator Equity Defined Protection ETF - 2 Yr to April 2026,stocks,us,BATS,ETF,True,usd,0001415726,BBG01M698CQ1,BBG01M698DK5,2025-10-07T06:05:53.246044692Z
+AAPU,Direxion Shares ETF Trust Direxion Daily AAPL Bull 2X Shares,stocks,us,XNAS,ETF,True,usd,,BBG0193YBZ92,BBG0193YC043,2025-10-07T06:05:53.246044772Z
+AAPW,Roundhill AAPL WeeklyPay ETF,stocks,us,BATS,ETF,True,usd,,BBG01SCFVRC3,BBG01SCFVS86,2025-10-07T06:05:53.246044853Z
+>>>>>>> 3f6a641b26d64ae2a06b8d6f4f0cd23ce226d62a

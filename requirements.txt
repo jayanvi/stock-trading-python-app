@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 requests
 openai
+=======
+requests
+openai
+>>>>>>> 3f6a641b26d64ae2a06b8d6f4f0cd23ce226d62a
 dotenv
