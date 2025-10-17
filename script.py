@@ -30,7 +30,6 @@ def fetch_and_write_tickers_to_csv():
     data = response.json()
     tickers = []
     for t in data.get('results', []):
-        t['ds'] = ds
         tickers.append({
             'ticker': t.get('ticker'),
             'name': t.get('name'),
@@ -44,7 +43,7 @@ def fetch_and_write_tickers_to_csv():
             'composite_figi': t.get('composite_figi'),
             'share_class_figi': t.get('share_class_figi'),
             'last_updated_utc': t.get('last_updated_utc'),
-            'ds': date.today()
+            'ds': datetime.now().strftime('%Y-%m-%d')
         })
 
     # Write to CSV
@@ -71,8 +70,7 @@ def load_data_to_snowflake(csv_file, stock_tickers):
     df = pd.read_csv(csv_file)
     print(f"Loaded {len(df)} rows from {csv_file}")
 
-    success, nchunks, nrows, _ = write_pandas(conn, df, stock_tickers.upper(),auto_create_table=False, quote_identifiers=False )
-
+    success, nchunks, nrows, _ = write_pandas(conn, df, stock_tickers.upper(), auto_create_table=False, quote_identifiers=False )
     if success:
         print(f"✅ Uploaded {nrows} rows to Snowflake table '{stock_tickers}'")
     else:
