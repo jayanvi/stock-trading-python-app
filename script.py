@@ -13,7 +13,7 @@ load_dotenv()
 # ----------------------------
 POLYGON_API_KEY = os.getenv('POLYGON_API_KEY')
 CSV_FILE = 'tickers_example.csv'
-LIMIT = 30  # keep small for free plan
+LIMIT = 100  # keep small for free plan
 ds = '2025-09-01'
 HEADERS = [
     'ticker', 'name', 'market', 'locale', 'primary_exchange', 'type', 'active',
